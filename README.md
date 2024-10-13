@@ -22,6 +22,8 @@ exact solution x = sin(t), with graphs illustrating the solution behavior for di
 Program E4 - The improved Euler method was applied to the harmonic oscillator problem with the same initial conditions as in Program E3. Solutions obtained from both the 
 simple and improved Euler methods were compared, with the exact solution plotted alongside the numerical results to assess accuracy improvements.
 
+RK4 Method Visualisations:
+
 Program R1 - Solved the nonlinear differential equation dy/dt = −a y³ + sin(bt) using the SciPy function solve_ivp based on the RK45 method. The function was defined to 
 calculate dy/dt, and the main function set up initial conditions (y₀ = 0) and solved the equation over time (t₀ = 0 to tf = 20) with various parameter pairs (a=1, b=1; 
 a=2, b=1; a=2, b=2; a=3, b=3). The time evolution of the solution for each parameter set was plotted, with labeled axes and a legend.
